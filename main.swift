@@ -1,7 +1,15 @@
 import Foundation
 
-//the study of structs 100 days of swift
+// declaração de var
+var nome: String = "João"
+var num: Int = 10
+var flag: Bool = true
 
-// structs are a way to group related values together
+//declaração de vetores infinitos
+var list : [String] = ["","",""]
 
-print("hello world")
+//adição de elemnetos para uma lista
+var frutas = ["maçã", "banana", "laranja"]
+for fruta in frutas {
+  list.append(fruta)
+}
